@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HealthifyMeApp</string>
+    <string name="content_authority">com.example.mynanodegreeapps.healthifymeapp.provider</string>
+    <string name="sync_account_type">healthifymeapp.example.com</string>
+    <string name="opensAt_textview">Opens at</string>
+    <string name="closesOn_textview">Closes on</string>
+    <string name="welcome_message">Please check Events widget for event info. </string>
+    <string name="github_label">Github link :</string>
+    <string name="github_link"><u>https://github.com/ayushk92/</u></string>
+    <string name="android_projects_label">Android Development:</string>
+    <string name="android_projects_summary">Currently developing OnTheWay app which helps in finding restaurants along the way. You can check the code at my github repository. I graduated from Udacity Android Nano degree and have been working on android development from past 3 months.</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_interval_key">Interval</string>
+    <string name="pref_interval_title">Set Interval(in seconds)</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_interval_summary">Please enter referesh interval in seconds.</string>
+</resources>

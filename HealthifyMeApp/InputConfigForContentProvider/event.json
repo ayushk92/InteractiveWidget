@@ -1,0 +1,66 @@
+{
+    "documentation": "Event details",
+    "fields": [
+       
+        {
+            "documentation": "event status",
+            "name": "status",
+            "type": "String",
+            "nullable": false
+        },
+        {
+            "documentation": "college event",
+            "name": "college",
+            "type": "Boolean",
+            "nullable": false
+        },
+        {
+            "documentation": "event title",
+            "name": "title",
+            "type": "String",
+            "nullable": false
+        },
+        {
+            "documentation": "event thumbnail url",
+            "name": "thumbnail",
+            "type": "String",
+            "nullable": true
+        },
+        {
+            "documentation": "challenge type",
+            "name": "challenge_type",
+            "type": "String",
+            "nullable": false
+        },
+        {
+            "documentation": "event description",
+            "name": "description",
+            "type": "String",
+            "nullable": false
+        },
+        {
+            "documentation": "event start date",
+            "name": "start_timestamp",
+            "type": "Date",
+            "nullable": false
+        },
+        {
+            "documentation": "event end date",
+            "name": "end_timestamp",
+            "type": "Date",
+            "nullable": false
+        },
+        {
+            "documentation": "event url",
+            "name": "url",
+            "type": "String",
+            "nullable": false
+        }
+        ],
+        "constraints": [
+            {
+                "name": "unique_title",
+                "definition": "UNIQUE(title) ON CONFLICT REPLACE"
+            }
+    ]
+}

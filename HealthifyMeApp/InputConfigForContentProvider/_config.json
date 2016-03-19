@@ -1,0 +1,13 @@
+{
+    "syntaxVersion": 3,
+    "projectPackageId": "com.example.mynanodegreeapps.healthifymeapp",
+    "authority": "com.example.mynanodegreeapps.healthifymeapp.provider",
+    "providerJavaPackage": "com.example.mynanodegreeapps.healthifymeapp.provider",
+    "providerClassName": "EventsProvider",
+    "sqliteOpenHelperClassName": "EventsSQLiteOpenHelper",
+    "sqliteOpenHelperCallbacksClassName": "EventsSQLiteOpenHelperCallbacks",
+    "databaseFileName": "Events.db",
+    "databaseVersion": 1,
+    "enableForeignKeys": true,
+    "useAnnotations": true
+}
